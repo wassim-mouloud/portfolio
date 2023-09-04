@@ -95,7 +95,7 @@ function Navbar() {
   }
 
   return (
-    <div className='w-full h-[50px] flex justify-end md:justify-between items-center   top-0 z-[99] px-4 md:px-6 lg:px-8 mt-10' >
+    <div className='w-full h-[50px] flex justify-end md:justify-between items-center   top-0 z-[99] px-4 md:px-6 lg:px-8 mt-10 mb-4 md:mb-0' >
       <motion.div initial='hidden' whileInView='show' variants={container2} viewport={{once:true}} className='flex gap-6'>
 
         <a href="#projects">
