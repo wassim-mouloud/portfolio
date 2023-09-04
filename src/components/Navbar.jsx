@@ -116,8 +116,7 @@ function Navbar() {
 
       <motion.div initial='hidden' whileInView='show' variants={container} viewport={{once:true}} className='flex gap-6' >
             <a href="https://github.com/wassim-mouloud" target='_blank'><motion.img onMouseEnter={()=>handleGithubenter()} onMouseLeave={()=>handleGithubleave()} variants={slideRight} viewport={{once:true}} src={githubHovered?'/images/github.png':'/images/white-github.png'} alt="" className='w-8 h-8 cursor-pointer lg:h-10 lg:w-10'  /></a>
-            <motion.img onMouseEnter={()=>handleLinkedinenter()} onMouseLeave={()=>handleLinkedinleave()} variants={slideRight} viewport={{once:true}} src={linkedinHovered?'/images/linkedin.png':'/images/white-linkedin.png'} alt="" className='w-8 h-8 cursor-pointer lg:h-10 lg:w-10' />
-            <motion.img onMouseEnter={()=>handleInstagramenter()} onMouseLeave={()=>handleInstagramleave()} variants={slideRight} viewport={{once:true}} src={instagramHovered?'/images/instagram.png':'/images/white-instagram.png'} alt="" className='w-8 h-8 cursor-pointer lg:h-10 lg:w-10' />
+            <a href="https://www.linkedin.com/feed/" target='_blank' ><motion.img onMouseEnter={()=>handleLinkedinenter()} onMouseLeave={()=>handleLinkedinleave()} variants={slideRight} viewport={{once:true}} src={linkedinHovered?'/images/linkedin.png':'/images/white-linkedin.png'} alt="" className='w-8 h-8 cursor-pointer lg:h-10 lg:w-10' /></a>
             <a href="https://twitter.com/WassimMouloud" target='_blank'><motion.img onMouseEnter={()=>handleTwitterenter()} onMouseLeave={()=>handleTwitterleave()} variants={slideRight} viewport={{once:true}} src={twitterHovered?"/images/twitter.png":"/images/white-twitter.png"} alt="" className='w-8 h-8 cursor-pointer lg:h-10 lg:w-10' /></a>
       </motion.div>
     </div> 
