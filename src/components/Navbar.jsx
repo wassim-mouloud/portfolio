@@ -107,8 +107,8 @@ function Navbar() {
 
         <a href="mailto: wassim.mouloud10@gmail.com">
           <motion.button onMouseEnter={()=>onMouseEnter2()} onMouseLeave={()=>onMouseLeave2()} variants={slideLeft} viewport={{once:true}}  className={`group  border border-transparent hidden md:flex justify-center items-center gap-4 h-10 w-[170px] rounded-md j ${gradient===false?'':'x'}`}>
-            <img src={isHovered2?'/images/black-mail.png':'/images/white-mail.png'} alt="" className='w-6 h-6' />
-            <p className='font-semibold text-white group-hover:text-black ' >Contact me</p>
+            <img src='/images/white-mail.png' alt="" className='w-6 h-6' />
+            <p className='font-semibold text-white' >Contact me</p>
           </motion.button>
         </a>
 
