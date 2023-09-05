@@ -40,7 +40,7 @@ function Hero() {
 
   return (
 
-    <motion.div initial={{y:-50}} whileInView={{y:0}} transition={{duration:1}} viewport={{once:true}} className='relative w-screen h-[calc(100vh-90px)] flex flex-col items-center justify-center leading-10 gap-7' >
+    <motion.div initial={{y:-50}} whileInView={{y:0}} transition={{duration:1}} viewport={{once:true}} className='relative w-screen  md:h-[calc(100vh-100px)] flex flex-col items-center justify-center leading-10 gap-7' >
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2.5}} viewport={{once:true}} className='p-4 text-center ' >
             <h1 className='word transition-opacity duration-300 text-white overflow-y-hidden  font-bold text-5xl  lg:text-6xl xl:text-7xl mb-[30px] leading-[50px] w-[80vw] sm:w-[90vw]  md:w-[950px] lg:w-[1100px] xl:w-[1300px]  mx-auto p-4 ' >Your Search for a 
               <span  className={`text-transparent bg-clip-text test  fancy  `} > Web Developer </span> 
