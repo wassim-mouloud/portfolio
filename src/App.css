@@ -62,6 +62,7 @@ body{
 .x{
   position:relative;
   background-color: black;
+  transition: background-image 0.3s ease;
 }
 
 .x:hover{
@@ -122,4 +123,8 @@ body{
 .btn:hover::before{
   transform: scaleX(1);
   transform-origin: left;
+}
+
+.bg{
+    transition: background-color 0.3s ease;
 }
