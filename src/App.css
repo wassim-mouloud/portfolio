@@ -61,7 +61,7 @@ body{
 
 .x{
   position:relative;
-  background-color: black;
+  background-color: #0d0d0d;
   transition: background-image 0.3s ease;
 }
 

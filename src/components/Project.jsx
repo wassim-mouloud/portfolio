@@ -66,7 +66,7 @@ function Project({name, description, img, vid, projectLink}) {
                         <img src="/images/firebase-logo.png" alt="" className='w-8 h-8'/>
                     </div>
                     <p className='text-white font-normal max-w-[90vw] md:text-[16px] lg:text-[18px]' >{description}</p>
-                    <a href={projectLink} target='_blank'><button className='group flex items-center justify-center h-9  border border-white  rounded-md bg-black  w-[220px] p-3  transition-all duration-300 btn' ><p className='font-semibold text-white transition-all duration-300 group-hover:text-black z-[99]' >Visit website</p></button></a>
+                    <a href={projectLink} target='_blank'><button className='group flex items-center justify-center h-9  border border-white  rounded-md bg-[#0d0d0d]  w-[220px] p-3  transition-all duration-300 btn' ><p className='font-semibold text-white transition-all duration-300 group-hover:text-[#0d0d0d] z-[99]' >Visit website</p></button></a>
                 </motion.div>
         </motion.div>
         )

@@ -98,9 +98,9 @@ function Navbar() {
     <div className='w-full h-[60px] flex justify-end md:justify-between items-center   top-0 z-[99] px-4 md:px-6 lg:px-8 mt-5 md:mt-8  md:mb-0' >
       <motion.div initial='hidden' whileInView='show' variants={container2} viewport={{once:true}} className='flex gap-6'>
         <a href="#projects">
-          <motion.button onMouseEnter={()=>onMouseEnter()} onMouseLeave={()=>onMouseLeave()} variants={slideLeft} viewport={{once:true}}  className='group border transparent hover:border-white bg-white hover:bg-black hidden md:flex justify-center items-center gap-4 h-10 w-[170px] rounded-md bg'>
+          <motion.button onMouseEnter={()=>onMouseEnter()} onMouseLeave={()=>onMouseLeave()} variants={slideLeft} viewport={{once:true}}  className='group border transparent hover:border-white bg-white hover:bg-[#0d0d0d] hidden md:flex justify-center items-center gap-4 h-10 w-[170px] rounded-md bg'>
             <img src={isHovered?'/images/white-projects.png':'/images/black-projects.png'} alt="" className='w-6 h-6'/>
-            <p className='font-semibold text-black group-hover:text-white' >Projects</p>
+            <p className='font-semibold text-[#0d0d0d] group-hover:text-white' >Projects</p>
           </motion.button>
         </a>
 
