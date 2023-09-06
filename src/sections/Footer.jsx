@@ -35,17 +35,17 @@ function Footer() {
 
         <motion.div variants={appear} viewport={{once:true}} className='flex flex-col gap-4 mt-6 md:gap-6 md:flex-row' >
             <a href="mailto: wassim.mouloud10@gmail.com">
-                <button onMouseEnter={()=> setEmailHovered(true)} onMouseLeave={()=> setEmailHovered(false)} className=' group h-[50px] w-[240px] rounded-md bg-black  flex justify-center items-center gap-3 border border-white btn2'>
+                <button onMouseEnter={()=> setEmailHovered(true)} onMouseLeave={()=> setEmailHovered(false)} className=' group h-[50px] w-[240px] rounded-md bg-[#0d0d0d]  flex justify-center items-center gap-3 border border-white btn2'>
                     <img src={`${emailHovered && window.innerWidth>1024?'/images/black-mail.png':'/images/white-mail.png'}`} alt="" className='w-6 h-6 z-[99]' />
-                    <p className='text-white group-hover:md:text-black font-semibold text-[18px] z-[99]' >E-mail</p>
+                    <p className='text-white group-hover:md:text-[#0d0d0d] font-semibold text-[18px] z-[99]' >E-mail</p>
                 </button>
             </a>
-            <button onMouseEnter={()=> setdiscordHovered(true)} onMouseLeave={()=> setdiscordHovered(false)} className='group h-[50px] w-[240px] rounded-md bg-black border border-[#7289da] flex justify-center items-center gap-4 btn3'>
+            <button onMouseEnter={()=> setdiscordHovered(true)} onMouseLeave={()=> setdiscordHovered(false)} className='group h-[50px] w-[240px] rounded-md bg-[#0d0d0d] border border-[#7289da] flex justify-center items-center gap-4 btn3'>
                 <img src={`${discordHovered && window.innerWidth>1024?'/images/white-discord.png':'/images/discord.png'}`} alt="" className='w-6 h-6 z-[99]' />
                 <p className='text-[#7289da] group-hover:md:text-white font-semibold text-[18px] z-[99]' >Discord</p>
             </button>
             <a href="https://www.linkedin.com/feed/" target='_blank'>
-                <button  onMouseEnter={()=>setLinkedinHovered(true)} onMouseLeave={()=>setLinkedinHovered(false)} className='group h-[50px] w-[240px] rounded-md bg-black border border-[#0b66c2] flex justify-center items-center gap-4 btn4'>
+                <button  onMouseEnter={()=>setLinkedinHovered(true)} onMouseLeave={()=>setLinkedinHovered(false)} className='group h-[50px] w-[240px] rounded-md bg-[#0d0d0d] border border-[#0b66c2] flex justify-center items-center gap-4 btn4'>
                     <img src={`${linkedinHovered && window.innerWidth>1024?'/images/white-linkedin.png':'/images/linkedin.png'}`} alt="" className='w-6 h-6 z-[99]' />
                     <p className='text-[#0b66c2] group-hover:md:text-white font-semibold text-[18px] z-[99]' >LinkedIn</p>
                 </button>
