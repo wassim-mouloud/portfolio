@@ -94,19 +94,41 @@ body{
           mask-composite: exclude; 
 }
 
-@media(hover){
-  #title:has(.fancy:hover) .word:not(.fancy){
-    opacity: 0.25;
-  }
-
+.bg{
+    transition: background-color 0.3s ease;
 }
 
+@media(hover){
 
-.btn{
+  .btn{
+    position: relative;
+  }
+  
+  .btn::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: scaleX(0);
+    transition: transform 300ms linear;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    transform-origin: right;
+  
+  }
+  
+  .btn:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+
+.btn2{
   position: relative;
 }
 
-.btn::before{
+.btn2::before{
   content: '';
   position: absolute;
   inset: 0;
@@ -120,11 +142,55 @@ body{
 
 }
 
-.btn:hover::before{
+.btn2:hover::before{
   transform: scaleX(1);
   transform-origin: left;
 }
 
-.bg{
-    transition: background-color 0.3s ease;
+.btn3{
+  position: relative;
+}
+
+.btn3::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: scaleX(0);
+  transition: transform 300ms linear;
+  background-color: #7289da;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  transform-origin: right;
+
+}
+
+.btn3:hover::before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.btn4{
+  position: relative;
+}
+
+.btn4::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: scaleX(0);
+  transition: transform 300ms linear;
+  background-color: #0b66c2;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  transform-origin: right;
+
+}
+
+.btn4:hover::before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 }
