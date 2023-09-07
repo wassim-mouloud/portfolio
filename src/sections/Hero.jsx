@@ -48,14 +48,13 @@ function Hero() {
             <p className='font-medium text-[14px] lg:text-[18px] text-white leading-7 w-[300px] sm:w-[450px] md:w-[600px] lg:w-[800px] mx-auto' >Hey there, I'm Wassim, a 21 year-old front-end developer and computer science student. Crafting seamless, captivating web experiences that merge design and technology is my passion.</p>
         </motion.div>
 
-        <motion.div initial='hidden' whileInView='show' variants={container} viewport={{once:true}}  className='grid grid-cols-3 gap-6 md:grid-cols-7' >
+        <motion.div initial='hidden' whileInView='show' variants={container} viewport={{once:true}}  className='grid grid-cols-3 gap-6 md:grid-cols-6' >
             <Logo url='/images/react-logo2.png' />
-            <Logo url='/images/firebase-logo.png' />
+            <Logo url='/images/next-logo.png' />
             <Logo url='/images/tailwind-logo.png' /> 
             <Logo url='/images/figma-logo.png' />
-            <Logo url='/images/nodejs-logo.png' />
+            <Logo url='/images/firebase-logo.png' />
             <Logo url='/images/sql-logo.png' />
-            <Logo2 url='/images/next-logo.png' />
         </motion.div>
     </motion.div>
   )
