@@ -31,7 +31,7 @@ function Footer() {
   return (
     <motion.div initial='hidden' whileInView='show' variants={container} viewport={{once:true}} className='flex flex-col items-center justify-center w-screen gap-4 mb-10 mt-14' >
         <motion.h1 variants={appear} viewport={{once:true}} className='text-[32px] lg:text-[50px] font-bold text-white' >Contact</motion.h1>
-        <motion.p variants={appear} viewport={{once:true}} className='px-4 text-center text-white md:text-[22px] md:w-[900px]' >You like my work and you're interested in working together? you can contact me through E-mail, Discord or LinkedIn.</motion.p>
+        <motion.p variants={appear} viewport={{once:true}} className='px-4 text-center text-white md:text-[22px] md:w-[900px]' >You like my work and you're interested in working with me ? you can contact me through E-mail, Discord or LinkedIn.</motion.p>
 
         <motion.div variants={appear} viewport={{once:true}} className='flex flex-col gap-4 mt-6 md:gap-6 md:flex-row' >
             <a href="mailto: wassim.mouloud10@gmail.com">
