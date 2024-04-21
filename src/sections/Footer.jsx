@@ -44,7 +44,7 @@ function Footer() {
                 <img src={`${discordHovered && window.innerWidth>1024?'/images/white-discord.png':'/images/discord.png'}`} alt="" className='w-6 h-6 z-[99]' />
                 <p className='text-[#7289da] group-hover:md:text-white font-semibold text-[18px] z-[99]' >Discord</p>
             </button>
-            <a href="https://www.linkedin.com/feed/" target='_blank'>
+            <a href="https://www.linkedin.com/in/wassim-mouloud-5b458a286/" target='_blank'>
                 <button  onMouseEnter={()=>setLinkedinHovered(true)} onMouseLeave={()=>setLinkedinHovered(false)} className='group h-[50px] w-[240px] rounded-md bg-[#0d0d0d] border border-[#0b66c2] flex justify-center items-center gap-4 btn4'>
                     <img src={`${linkedinHovered && window.innerWidth>1024?'/images/white-linkedin.png':'/images/linkedin.png'}`} alt="" className='w-6 h-6 z-[99]' />
                     <p className='text-[#0b66c2] group-hover:md:text-white font-semibold text-[18px] z-[99]' >LinkedIn</p>
